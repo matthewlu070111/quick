@@ -1,0 +1,29 @@
+.main{
+    width: 100px;
+    height: auto;
+    font-size: 14px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+.links{
+    margin-top: auto;
+    border: 1px solid white;
+}
+.links a{
+    width: 100%;
+    display: block;
+    margin: auto;
+    color: black;
+    line-height: 30px;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #555;
+}
+.links a:last-child{
+    border-bottom: none;
+}
+.links a:hover{
+    background-color: #555;
+    color: white;
+}
