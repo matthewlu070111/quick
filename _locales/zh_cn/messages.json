@@ -1,0 +1,44 @@
+{
+    //manifest.json
+    "name": {
+        "message": "快速"
+    },
+    "description": {
+        "message": "更快更便捷"
+    },
+    "defaultTitle": {
+        "message": "快速使用"
+    },
+
+    //popup.html
+    "popupTitle": {
+        "message": "快速"
+    },
+    "popupGenCode": {
+        "message": "生成二维码"
+    },
+    "popupOptions": {
+        "message": "设置"
+    },
+
+    //main(option.html,version.html)
+    "mainBtnOptions": {
+        "message": "设置"
+    },
+    "mainBtnVersion": {
+        "message": "版本"
+    },
+    "mainBtnRAP": {
+        "message": "反馈问题"
+    },
+
+    //version.html
+    "versionVer": {
+        "message": "版本: "
+    },
+    
+    //qrcode.html
+    "qrcodeRClk": {
+        "message": "右键保存二维码"
+    }
+}

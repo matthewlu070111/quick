@@ -1,10 +1,16 @@
 body{
-    background-color: aqua;
+    
 }
 .main{
-    width: auto;
-    height: 50px;
-    margin: 100px auto;
+
+}
+.logo{
+  margin: 100px auto;
+  text-align: center;
+}
+.logo img{
+  width: 225px;
+  height: 110px;
 }
 .parent{
     width: 100%;
@@ -23,31 +29,17 @@ body{
     border: 1px solid #317ef3;
     padding-left: 10px;
 }
-#bdyx{
-    color: blue;
-    font-size: 20px;
-}
-.bdss{
-    text-align: center;
-}
-p.version{
-    width: auto;
-    height: 50px;
-    margin: 100px auto;
-    text-align: left;
-    font-size: 20px;
-}
 .search-box{
     position: absolute;
-    top: 45%;
+    top: 100%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: #2f3640;
-    height: 40px;
+    height: 50px;
     border-radius: 40px;
     padding: 7px;
-    margin: 55px auto;
-    width: 300px;
+    margin: 150px auto;
+    width: 500px;
 }
 .search-txt{
     border: none;
@@ -58,7 +50,7 @@ p.version{
     font-size: 16px;
     transition: 0.4s;
     line-height: 40px;
-    width: 290px;
+    width: 500px;
     text-align: center;
     align-items: center;
 }

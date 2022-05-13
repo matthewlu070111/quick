@@ -1,27 +1,23 @@
-﻿{
-   "permissions": [ "tabs" ],
-   "browser_action":  {
-      "default_icon": "images/icon.png",
-      "default_popup": "popup.html",
-      "default_title": "更快使用"
-   },
-   "icons": {
-      "128": "images/icon128.png",
-      "16": "images/icon16.png",
-      "48": "images/icon48.png"
-   },
-   "chrome_url_overrides":
-   {
-   "newtab": "newtab.html"
-   },
-   "options_page": "option.html",
-   "options_ui":
-   {
-   "page": "option.html",
-   "chrome_style": true
-   },
-   "description": "快速",
-   "manifest_version": 2,
-   "name": "快速",
-   "version": "1.0.0"
+{
+    "name": "__MSG_name__",
+    "description": "__MSG_description__",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "default_locale": "en",
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "__MSG_defaultTitle__"
+    },
+    "permissions": [ "tabs" ],
+    "chrome_url_overrides": {
+        "newtab": "newtab.html"
+    },
+    "options_ui": {
+        "page": "option.html"
+    },
+    "icons": {
+        "128": "images/icon128.png",
+        "16": "images/icon16.png",
+        "48": "images/icon48.png"
+    }
 }

@@ -1,0 +1,44 @@
+{
+    //manifest.json
+    "name": {
+        "message": "Quicker"
+    },
+    "description": {
+        "message": "Use the browser quicker&easier"
+    },
+    "defaultTitle": {
+        "message": "Quicker"
+    },
+    
+    //popup.html
+    "popupTitle": {
+        "message": "Quicker"
+    },
+    "popupGenCode": {
+        "message": "Generate QRcode"
+    },
+    "popupOptions": {
+        "message": "Settings"
+    },
+    
+    //main(option.html,version.html)
+    "mainBtnOptions": {
+        "message": "Settings"
+    },
+    "mainBtnVersion": {
+        "message": "Version"
+    },
+    "mainBtnRAP": {
+        "message": "Report a problem"
+    },
+    
+    //version.html
+    "versionVer": {
+        "message": "Version: "
+    },
+    
+    //qrcode.html
+    "qrcodeRClk": {
+        "message": "Rightclick To Save The Qrcode"
+    }
+}
