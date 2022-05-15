@@ -9,6 +9,11 @@
     "defaultTitle": {
         "message": "Quicker"
     },
+
+    //newtab.html
+    "newtabTitle": {
+        "message": "New Tab"
+    },
     
     //popup.html
     "popupTitle": {
@@ -22,6 +27,12 @@
     },
     
     //main(option.html,version.html)
+    "optionsTitle": {
+        "message": "Settings"
+    },
+    "versionTitle": {
+        "message": "Version"
+    },
     "mainBtnOptions": {
         "message": "Settings"
     },
@@ -40,5 +51,25 @@
     //qrcode.html
     "qrcodeRClk": {
         "message": "Rightclick To Save The Qrcode"
+    },
+
+    //service_worker
+    "swOne": {
+        "message": "Use Google Search「%s」"
+    },
+    "swOneURL": {
+        "message": "https://www.google.com/search?q="
+    },
+    "swTwo": {
+        "message": "Use Duck Duck Go Search「%s」"
+    },
+    "swTwoURL": {
+        "message": "https://duckduckgo.com/?q="
+    },
+    "swThree": {
+        "message": "Use Bing Search「%s」"
+    },
+    "swThreeURL": {
+        "message": "https://www.bing.com/search?q="
     }
 }

@@ -1,20 +1,25 @@
-{
-    "name": "__MSG_name__",
-    "description": "__MSG_description__",
-    "version": "1.0.0",
-    "manifest_version": 3,
-    "default_locale": "en",
+﻿{
+    "name": "__MSG_name__", //名称
+    "description": "__MSG_description__",  //简介
+    "version": "1.0.0",  //简介
+    "manifest_version": 3,  //MV3
+    "default_locale": "en",  //首选语言
+    "author": "imxiaoanag",  //作者
     "action": {
-        "default_popup": "popup.html",
-        "default_title": "__MSG_defaultTitle__"
+        "default_popup": "popup.html",  //popup.html
+        "default_title": "__MSG_defaultTitle__"  //默认popup显示字符
     },
-    "permissions": [ "tabs" ],
+    "background": {
+        "service_worker": "service_worker.js"  //后台，原background.js
+    },
+    "permissions": [ "contextMenus", "tabs" ],  //权限
     "chrome_url_overrides": {
-        "newtab": "newtab.html"
+        "newtab": "newtab.html"  //新标签页
     },
     "options_ui": {
-        "page": "option.html"
+        "page": "option.html"  //设置
     },
+    //图标
     "icons": {
         "128": "images/icon128.png",
         "16": "images/icon16.png",

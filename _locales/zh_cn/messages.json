@@ -10,6 +10,11 @@
         "message": "快速使用"
     },
 
+    //newtab.html
+    "newtabTitle": {
+        "message": "新标签页"
+    },
+
     //popup.html
     "popupTitle": {
         "message": "快速"
@@ -22,6 +27,12 @@
     },
 
     //main(option.html,version.html)
+    "optionsTitle": {
+        "message": "设置"
+    },
+    "versionTitle": {
+        "message": "版本"
+    },
     "mainBtnOptions": {
         "message": "设置"
     },
@@ -40,5 +51,25 @@
     //qrcode.html
     "qrcodeRClk": {
         "message": "右键保存二维码"
+    },
+
+    //service_worker
+    "swOne": {
+        "message": "使用 百度 搜索「%s」"
+    },
+    "swOneURL": {
+        "message": "https://www.baidu.com/s?ie=UTF-8&wd="
+    },
+    "swTwo": {
+        "message": "使用 360搜索 搜索「%s」"
+    },
+    "swTwoURL": {
+        "message": "https://www.so.com/s?q="
+    },
+    "swThree": {
+        "message": "使用 必应 搜索「%s」"
+    },
+    "swThreeURL": {
+        "message": "https://cn.bing.com/search?q="
     }
 }
