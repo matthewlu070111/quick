@@ -27,12 +27,6 @@
     },
     
     //main(option.html,version.html)
-    "optionsTitle": {
-        "message": "Settings"
-    },
-    "versionTitle": {
-        "message": "Version"
-    },
     "mainBtnOptions": {
         "message": "Settings"
     },
@@ -43,7 +37,15 @@
         "message": "Report a problem"
     },
     
+    //option.html
+    "optionsTitle": {
+        "message": "Settings"
+    },
+
     //version.html
+    "versionTitle": {
+        "message": "Version"
+    },
     "versionVer": {
         "message": "Version: "
     },

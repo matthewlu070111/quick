@@ -27,12 +27,6 @@
     },
 
     //main(option.html,version.html)
-    "optionsTitle": {
-        "message": "设置"
-    },
-    "versionTitle": {
-        "message": "版本"
-    },
     "mainBtnOptions": {
         "message": "设置"
     },
@@ -43,7 +37,15 @@
         "message": "反馈问题"
     },
 
+    //option.html
+    "optionsTitle": {
+        "message": "设置"
+    },
+
     //version.html
+    "versionTitle": {
+        "message": "版本"
+    },
     "versionVer": {
         "message": "版本: "
     },

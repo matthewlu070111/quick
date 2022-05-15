@@ -1,11 +1,3 @@
-function optionsTitle() {
-    document.getElementById('optionsTitle').innerHTML = chrome.i18n.getMessage('optionsTitle');
-}
-window.addEventListener('load', optionsTitle);
-function versionTitle() {
-    document.getElementById('versionTitle').innerHTML = chrome.i18n.getMessage('versionTitle');
-}
-window.addEventListener('load', versionTitle);
 function mainBtnOptions() {
     document.getElementById('mainBtnOptions').innerHTML = chrome.i18n.getMessage('mainBtnOptions');
 }
