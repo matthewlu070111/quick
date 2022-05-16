@@ -1,5 +1,4 @@
 {
-    //manifest.json
     "name": {
         "message": "Quicker"
     },
@@ -10,7 +9,6 @@
         "message": "Quicker"
     },
     
-    //popup.html
     "popupTitle": {
         "message": "Quicker"
     },
@@ -21,7 +19,6 @@
         "message": "Settings"
     },
     
-    //main(options.html,version.html)
     "mainBtnOptions": {
         "message": "Settings"
     },
@@ -32,12 +29,10 @@
         "message": "Report a problem"
     },
     
-    //options.html
     "optionsTitle": {
         "message": "Settings"
     },
 
-    //version.html
     "versionTitle": {
         "message": "Version"
     },
@@ -45,12 +40,10 @@
         "message": "Version: "
     },
     
-    //qrcode.html
     "qrcodeRClk": {
         "message": "Rightclick To Save The Qrcode"
     },
 
-    //service_worker.js
     "swOne": {
         "message": "Use Google Search「%s」"
     },
