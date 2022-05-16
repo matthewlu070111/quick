@@ -1,3 +1,4 @@
+//i18n
 function versionTitle() {
     document.getElementById('versionTitle').innerHTML = chrome.i18n.getMessage('versionTitle');
 }

@@ -10,11 +10,6 @@
         "message": "快速使用"
     },
 
-    //newtab.html
-    "newtabTitle": {
-        "message": "新标签页"
-    },
-
     //popup.html
     "popupTitle": {
         "message": "快速"
@@ -26,7 +21,7 @@
         "message": "设置"
     },
 
-    //main(option.html,version.html)
+    //main(options.html,version.html)
     "mainBtnOptions": {
         "message": "设置"
     },
@@ -37,7 +32,7 @@
         "message": "反馈问题"
     },
 
-    //option.html
+    //options.html
     "optionsTitle": {
         "message": "设置"
     },
@@ -55,7 +50,7 @@
         "message": "右键保存二维码"
     },
 
-    //service_worker
+    //service_worker.js
     "swOne": {
         "message": "使用 百度 搜索「%s」"
     },
@@ -73,5 +68,11 @@
     },
     "swThreeURL": {
         "message": "https://cn.bing.com/search?q="
+    },
+    "swFour": {
+        "message": "使用 搜狗 搜索「%s」"
+    },
+    "swFourURL": {
+        "message": "https://www.sogou.com/web?query="
     }
 }

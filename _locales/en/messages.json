@@ -9,11 +9,6 @@
     "defaultTitle": {
         "message": "Quicker"
     },
-
-    //newtab.html
-    "newtabTitle": {
-        "message": "New Tab"
-    },
     
     //popup.html
     "popupTitle": {
@@ -26,7 +21,7 @@
         "message": "Settings"
     },
     
-    //main(option.html,version.html)
+    //main(options.html,version.html)
     "mainBtnOptions": {
         "message": "Settings"
     },
@@ -37,7 +32,7 @@
         "message": "Report a problem"
     },
     
-    //option.html
+    //options.html
     "optionsTitle": {
         "message": "Settings"
     },
@@ -55,7 +50,7 @@
         "message": "Rightclick To Save The Qrcode"
     },
 
-    //service_worker
+    //service_worker.js
     "swOne": {
         "message": "Use Google Search「%s」"
     },
@@ -73,5 +68,11 @@
     },
     "swThreeURL": {
         "message": "https://www.bing.com/search?q="
+    },
+    "swFour": {
+        "message": "Use Yahoo! Search「%s」"
+    },
+    "swFourURL": {
+        "message": "https://search.yahoo.com/search?p="
     }
 }

@@ -1,3 +1,4 @@
+//i18n
 function mainBtnOptions() {
     document.getElementById('mainBtnOptions').innerHTML = chrome.i18n.getMessage('mainBtnOptions');
 }

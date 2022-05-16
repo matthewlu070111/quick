@@ -1,7 +1,7 @@
 ﻿{
     "name": "__MSG_name__", //名称
     "description": "__MSG_description__",  //简介
-    "version": "1.0.0",  //简介
+    "version": "1.0.0",  //版本
     "manifest_version": 3,  //MV3
     "default_locale": "en",  //首选语言
     "author": "imxiaoanag",  //作者
@@ -10,15 +10,16 @@
         "default_title": "__MSG_defaultTitle__"  //默认popup显示字符
     },
     "background": {
-        "service_worker": "service_worker.js"  //后台，原background.js
+        "service_worker": "service_worker.js"  //后台，原background
     },
     "permissions": [ "contextMenus", "tabs" ],  //权限
-    "chrome_url_overrides": {
-        "newtab": "newtab.html"  //新标签页
-    },
     "options_ui": {
-        "page": "option.html"  //设置
+        "page": "options.html"  //设置
     },
+    "content_scripts" : [{
+        "matches": ["<all_urls>"],
+        "js" : ["content.js"]
+    }],
     //图标
     "icons": {
         "128": "images/icon128.png",
