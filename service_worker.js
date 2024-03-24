@@ -1,5 +1,5 @@
 chrome.runtime.onInstalled.addListener(function() {
-    //右键菜单
+    //Right Click Menu
     chrome.contextMenus.create({
         title: chrome.i18n.getMessage("swOne"),
         contexts: ['selection'],

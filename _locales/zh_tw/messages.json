@@ -1,0 +1,71 @@
+{
+    "name": {
+        "message": "快速"
+    },
+    "description": {
+        "message": "更快更便捷"
+    },
+    "defaultTitle": {
+        "message": "快速使用"
+    },
+
+    "popupTitle": {
+        "message": "快速"
+    },
+    "popupGenCode": {
+        "message": "生成QRCode"
+    },
+    "popupOptions": {
+        "message": "設置"
+    },
+
+    "mainBtnOptions": {
+        "message": "設置"
+    },
+    "mainBtnVersion": {
+        "message": "版本"
+    },
+    "mainBtnRAP": {
+        "message": "反饋Bugs"
+    },
+
+    "optionsTitle": {
+        "message": "設置"
+    },
+
+    "versionTitle": {
+        "message": "版本"
+    },
+    "versionVer": {
+        "message": "版本: "
+    },
+    
+    "qrcodeRClk": {
+        "message": "右鍵存儲QRCode"
+    },
+
+    "swOne": {
+        "message": "使用 谷歌 搜索「%s」"
+    },
+    "swOneURL": {
+        "message": "https://www.google.com/search?q="
+    },
+    "swTwo": {
+        "message": "使用 Duck Duck Go 搜索「%s」"
+    },
+    "swTwoURL": {
+        "message": "https://duckduckgo.com/?q="
+    },
+    "swThree": {
+        "message": "使用 Bing 搜索「%s」"
+    },
+    "swThreeURL": {
+        "message": "https://www.bing.com/search?q="
+    },
+    "swFour": {
+        "message": "使用 雅虎 搜索「%s」"
+    },
+    "swFourURL": {
+        "message": "https://search.yahoo.com/search?p="
+    }
+}
